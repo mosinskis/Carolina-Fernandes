@@ -1,6 +1,6 @@
 <?php 
-$emailTo = 'yourmail@example.com';
-$siteTitle = 'YourSiteTitle';
+$emailTo = 'mosinskis@gmail.com';
+$siteTitle = 'CarolinaMF';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
@@ -57,6 +57,29 @@ if(isset($_POST['submitted'])) {
 		
         // set our boolean completion value to TRUE
 		$emailSent = true;
+		
+		//<div class="modal fade" id="myModal" role="dialog">
+										//<div class="modal-dialog">								
+											
+											//<div class="modal-content">
+												//<div class="modal-header">
+													//<button type="button" class="close" data-dismiss="modal">&times;</button>
+														//<h4 class="modal-title text-center">Payment Sucessful</h4>
+												//</div>
+												//<div class="modal-body">
+													//<p class="text-center">Thank you for buying with bobbleshop.</p>
+												//</div>
+												//<div class="modal-footer">
+													//<input><a href="index.html" class="btn btn-modal" data-dismiss="index.html">Back to Store</a><input>
+												//</div>
+											//</div>								
+										//</div>
+									//</div>
+
+		header('Location:index.html');
+
+
+	
 	}
 }
 ?>
