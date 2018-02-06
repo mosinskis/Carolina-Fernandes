@@ -1,0 +1,12 @@
+﻿@media screen and (max-width: 990px) {
+    .navbar-brand-small {
+        display: none;
+    }
+    .nav-brand{
+
+    }
+}
+
+.features_port{
+    padding-left:45%;
+}
